@@ -1,0 +1,72 @@
+body {
+    background-color: silver;
+    height: 100%;
+    width : 98%;
+    margin: 1%;
+    font-size: 2em;
+     }
+ul.navbar {
+    overflow:auto; 
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+    background-color: gray;
+    margin: 1px;       
+       }
+.navbar li { 
+    float: left;
+    display: block;
+    width: 5em;
+    padding:10px;
+    margin: 0 5px;
+    background-color: gray;
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+    width: auto;
+    height: 1.5em;
+          }
+.navbar a {
+    text-decoration: none;
+    color: orange;
+    vertical-align: sub;
+}
+ul.navbar a:hover{
+    background-color: black;
+    color: white;
+         }
+
+.orange_style {
+    background-color: orange;
+    color: white;
+}
+
+.black_style {
+    background-color: black;
+    color: white;
+}
+
+.gray_style {
+    background-color: gray;
+    color: black;
+}
+
+#break_line1 {
+    margin: 0;
+}
+#text1 {
+    font-size: 0.6em;    
+    line-height: normal;
+    font-style: italic;
+}
+
+@keyframes error1 {
+    0%   {background-color: silver;}
+    50%  {background-color: red;}
+    100% {background-color: silver;}
+}
+@keyframes error2 {
+    0%   {background-color: silver;}
+    50%  {background-color: red;}
+    100% {background-color: silver;}
+}
