@@ -40,7 +40,7 @@ function load_function1() {
     const url='http://192.168.0.210:3002/load_text';
     Http.open("POST", url);
     Http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    Http.send("new_text="+input1.value);
+    Http.send("new_text="+encodeURIComponent(input1.value));
 
 }
 function Link_click(e) {
